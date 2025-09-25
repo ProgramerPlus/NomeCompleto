@@ -2,17 +2,17 @@
 
 Console.Write("Digite seu primeiro nome: ");
 nome = Console.ReadLine()!;
+//Configuração para a primeira letra do nome aparecer maiúscula automaticamente
 inicial = nome.Substring(0, 1);
 inicial = inicial.ToUpper();
-//Configuração para a primeira letra do nome aparecer maiúscula automaticamente
 nome = nome.Remove(0, 1);
 nome = inicial + nome;
 
 Console.Write("Digite seu segundo nome: ");
-sobrenome=Console.ReadLine()!;
+sobrenome = Console.ReadLine()!;
+//Configuração para a primeira letra do nome aparecer maiúscula automaticamente
 inicial=sobrenome.Substring(0,1);
 inicial = inicial.ToUpper();
-//Configuração para a primeira letra do nome aparecer maiúscula automaticamente
 sobrenome = sobrenome.Remove(0, 1);
 sobrenome = inicial + sobrenome;
 
